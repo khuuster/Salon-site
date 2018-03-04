@@ -739,7 +739,7 @@ Our-service
 }
 
 .service-block-inner:hover .service-block-image {
-	background:#000000;
+	background:#ffffff;
 }
 
 .service-block-image {
@@ -1294,7 +1294,7 @@ Tab Style pricing
 	font-size:20px;
 	text-transform:uppercase;
 	text-align:left;
-	color:#FFFFFF;
+	color:rgb(0, 0, 0);
 	display:inline-block;
 }
 
@@ -1303,7 +1303,7 @@ Tab Style pricing
 	font-size:20px;
 	text-transform:uppercase;
 	text-align:right;
-	color:#ff9138;
+	color:#080808;
 	margin-top:-30px;
 }
 
@@ -1311,7 +1311,7 @@ Tab Style pricing
 	font-size:14px;
 	text-transform:capitalize;
 	text-align:left;
-	color:#c2c2c2;
+	color:#292929;
 	font-family: 'Open Sans', sans-serif;
 	padding:8px 0 0 0;
 }
@@ -1450,15 +1450,25 @@ Box Style pricing
 
 -----------------------------------------------------------------------------------*/
 
+.bikini{
+			margin-top: -23px;
+			margin-bottom: 19px;
+			margin-left: -17px;
+}
+
+.bikini h1{
+	font-family: 'Mukta Mahee', sans-serif;	
+	font-size: 30px; 
+}
+
 .our-pricing {
-	background: url("../images/price-banner.jpg") no-repeat top center;
-	background-size: cover;
+	background-color: #f3f3f3;
 	padding-top: 107px;
 	padding-bottom: 107px;
 }
 
 .our-pricing .heading-title {
-	color: #ffffff;
+	color: #2e2e2e;
 }
 
 .our-pricing-wrapper {
@@ -1974,11 +1984,7 @@ Appointment
 
 
 
-/*-----------------------------------------------------------------------------------
-
-Photo Gallery
-
------------------------------------------------------------------------------------*/
+/*Photo Gallery*/
 
 .our-gallery {
 	background: #eaeff2;
@@ -2050,10 +2056,6 @@ Photo Gallery
 	
 }
 
-.tabs li:first-child {
-	/*padding-left: 0;*/
-}
-
 .gallery-img a {
 	display: block;
 	position: relative;
@@ -2061,9 +2063,6 @@ Photo Gallery
     overflow: hidden;
 }
 
-.gallery-img a:hover {
-	border:#ff9138 solid 10px;
-}
 
 .gallery-img a img {
     transition: all ease 0.5s;
@@ -2072,38 +2071,6 @@ Photo Gallery
 
 .gallery-img a:hover img {
     transform: scale(1.2);
-}
-
-.gallery-img a:after, .gallery-img a:before {
-	content: "";
-	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	transition: all ease 0.5s;
-
-}
-
-.gallery-img a:before {
-  background: url("../images/plus-ic.png") no-repeat scroll center center;
-  height: 85px;
-  margin: 0 auto;
-  width: 85px;
-  z-index: 9;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-
-}
-
-.gallery-img a:hover:after, .gallery-img a:hover:before {
-	display: block;
-	transition: all ease 0.5s;
-    opacity: 1;
-
 }
 
 .gallery_button {
@@ -2439,8 +2406,6 @@ Contact us
 }
 
 .map-img iframe {
-     webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 	width:100%;
 	height:400px;
 }
@@ -2465,7 +2430,7 @@ Footer
 -----------------------------------------------------------------------------------*/
 
 .footer {
-	background: #191919;
+	background: #ffffff;
 	padding-top: 110px;
 	padding-bottom: 110px;
 	text-align: center;
