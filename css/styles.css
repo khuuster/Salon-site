@@ -1984,11 +1984,7 @@ Appointment
 
 
 
-/*-----------------------------------------------------------------------------------
-
-Photo Gallery
-
------------------------------------------------------------------------------------*/
+/*Photo Gallery*/
 
 .our-gallery {
 	background: #eaeff2;
@@ -2060,10 +2056,6 @@ Photo Gallery
 	
 }
 
-.tabs li:first-child {
-	/*padding-left: 0;*/
-}
-
 .gallery-img a {
 	display: block;
 	position: relative;
@@ -2071,9 +2063,6 @@ Photo Gallery
     overflow: hidden;
 }
 
-.gallery-img a:hover {
-	border:#ff9138 solid 10px;
-}
 
 .gallery-img a img {
     transition: all ease 0.5s;
@@ -2082,38 +2071,6 @@ Photo Gallery
 
 .gallery-img a:hover img {
     transform: scale(1.2);
-}
-
-.gallery-img a:after, .gallery-img a:before {
-	content: "";
-	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	transition: all ease 0.5s;
-
-}
-
-.gallery-img a:before {
-  background: url("../images/plus-ic.png") no-repeat scroll center center;
-  height: 85px;
-  margin: 0 auto;
-  width: 85px;
-  z-index: 9;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-
-}
-
-.gallery-img a:hover:after, .gallery-img a:hover:before {
-	display: block;
-	transition: all ease 0.5s;
-    opacity: 1;
-
 }
 
 .gallery_button {
