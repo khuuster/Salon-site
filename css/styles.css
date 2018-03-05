@@ -205,7 +205,6 @@ p {
     table-layout: fixed;
     width: 100%;
     height: 100%;
-    padding-top:20px;
     position: relative;
 }
 /* 
@@ -392,6 +391,7 @@ About us
 -----------------------------------------------------------------------------------*/
 
 .experience-section {
+	padding-top: 100px;
 	background: #FFFFFF;
 	padding-bottom:110px;
 }
@@ -1196,11 +1196,11 @@ Tab Style pricing
 }
 
 .tabs ul {
-  margin: 0;
-  padding:0;
-  font-weight: bold;
-  border-bottom:#ff9138 solid 2px;
-  background:#000000;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	border-bottom: #ff9138 solid 2px;
+	background: #fdfdfd;
 }
 
 .tabs ul li {
@@ -2349,7 +2349,7 @@ Contact us
 
 .map-top-block {
   float: left;
-  width: 25%;
+  width: 33%;
 }
 
 .map-top-text {
@@ -2431,7 +2431,7 @@ Footer
 
 .footer {
 	background: #ffffff;
-	padding-top: 110px;
+	padding-top: 60px;
 	padding-bottom: 110px;
 	text-align: center;
 }
@@ -2597,7 +2597,7 @@ Footer
 }
 
 .subscribe-us .copyright {
-	margin-top: 63px;
+	margin-top: 8px;
 	margin-bottom: 0;
 }
 
