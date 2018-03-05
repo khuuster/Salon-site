@@ -169,7 +169,11 @@
 	    $('.mobile-ic').on('click',function() {
 	    	$('.responsive-menu').slideToggle();
             $('.menu').slideToggle();
-	    })
+			})
+			
+			$('.responsive-menu ul li a').on('click', function(){
+				$('.responsive-menu').slideToggle();
+			}); 
 
 
 		/*-----------------------------------------------------------------------------------*/
@@ -191,12 +195,8 @@
 				return false;
 				   }
 				 }
-			   });
-        
-		 
-         
-		 
-		
+				 });
+				 
        
 		/*-----------------------------------------------------------------------------------*/
 		/* scroll to top js */
