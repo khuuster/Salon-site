@@ -737,10 +737,10 @@ Our-service
     position: relative;
     cursor: pointer;
 }
-
+/* 
 .service-block-inner:hover .service-block-image {
 	background:#ffffff;
-}
+} */
 
 .service-block-image {
   background-position: center center;
@@ -801,11 +801,11 @@ Our-service
 }
 
 .service-middle.active h6, .service-block-inner:hover h6 {
-	color: #ffffff;
+	color: #2dc997;
 }
 
 .service-middle.active p, .service-block-inner:hover p {
-	color: #c7c7c7;
+	color: #5e5e5e;
 }
 
  .service-middle.active .read-more-btn, .service-block-inner:hover .read-more-btn {
