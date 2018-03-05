@@ -2412,7 +2412,6 @@ Contact us
 
 .map-img:after {
 	content: "";
-	background: url("../images/loc-big.png") no-repeat center center;
 	position: absolute;
 	top: 90px;
 	left: 0;
