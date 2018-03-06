@@ -276,6 +276,7 @@ p {
 }
 
 .banner-text span {
+	text-shadow: 0 0 8px #1a1a1a;
     display: block;
     font-weight:normal;
     color: #FFFFFF;
@@ -286,7 +287,10 @@ p {
 	font-family: 'Oswald', sans-serif;
 }
 
+
+
 .banner-text h1 {
+	text-shadow: 0 0 9px rgb(80, 80, 80);
   color: #ffffff;
   font-size: 110px;
   font-weight: 600;
